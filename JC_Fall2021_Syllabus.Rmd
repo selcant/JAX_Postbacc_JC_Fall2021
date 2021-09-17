@@ -1,0 +1,117 @@
+---
+title: "Syllabus"
+description: |
+  List of articles selected for JAX Postbacc Journal Club, Fall 2021
+author:
+  - name: Selcan Aydin, Ph.D.
+    url: https://selcan-aydin.netlify.app/
+    affiliation: The Jackson Laboratory
+    affiliation_url: https://www.jax.org/
+date: "`r Sys.Date()`"
+output: 
+  distill::distill_article:
+    toc: TRUE
+    toc_float: TRUE
+---
+
+## Article list
+
+### Week 1 - 09/23/2021
+
+Let's start with the Yamanaka paper to talk about:
+
+-   What makes embryonic stem cells unique and special?
+-   What is cellular programming?
+
+**Article:** Takahashi K, Yamanaka S. Induction of pluripotent stem cells from mouse embryonic and adult fibroblast cultures by defined factors. Cell. 2006 Aug 25;126(4):663-76. doi: [10.1016/j.cell.2006.07.024](https://doi.org/10.1016/j.cell.2006.07.024). Epub 2006 Aug 10. PMID: 16904174.
+
+**Accompanying comment:** Scudellari, M. How iPS cells changed the world. Nature 534, 310--312 (2016). <https://doi.org/10.1038/534310a>
+
+Dr. Shinya Yamanaka got a nobel prize for his work!
+
+**Additional resources from Jove:**
+
+-   Timeline of how we learned about stem cells and pluripotency/multi-potency: <https://www-jove-com.ezproxy.jax.org/v/5331/an-introduction-to-stem-cell-biology>
+
+-   Embryonic stem cells: <https://www-jove-com.ezproxy.jax.org/science-education/10811/embryonic-stem-cells>
+
+-   Induced pluripotency: <https://www-jove-com.ezproxy.jax.org/v/5333/induced-pluripotency>
+
+### Week 2 - 10/07/2021
+
+Now that we have established:
+
+-   What is pluripotency?
+-   What are induced pluripotent stem cells?
+
+Let's look at an example in where iPSCs can be used to investigate human diseases. I chose this paper because it combines the power of genetic engineering and iPSCs to study a neruological disease.
+
+**Article:** Arias-Fuenzalida J, Jarazo J, Qing X, Walter J, Gomez-Giro G, Nickels SL, Zaehres H, Schöler HR, Schwamborn JC. FACS-Assisted CRISPR-Cas9 Genome Editing Facilitates Parkinson's Disease Modeling. Stem Cell Reports. 2017 Nov 14;9(5):1423-1431. doi: [10.1016/j.stemcr.2017.08.026](https://doi.org/10.1016/j.stemcr.2017.08.026). Epub 2017 Oct 5. PMID: 28988985; PMCID: PMC5830965.
+
+**Additional resources:**
+
+-   General introduction to genome editing: <https://www-jove-com.ezproxy.jax.org/v/5554/genome-editing>
+
+-   Comprehensive **review** of what CRISPR is, how it was discovered and how it is being utilized:
+
+    Thurtle-Schmidt DM, Lo TW. Molecular biology at the cutting edge: A review on CRISPR/CAS9 gene editing for undergraduates. Biochem Mol Biol Educ. 2018 Mar;46(2):195-205. doi: [10.1002/bmb.21108](https://iubmb.onlinelibrary.wiley.com/doi/10.1002/bmb.21108). Epub 2018 Jan 30. PMID: 29381252; PMCID: PMC5901406.
+
+-   Comprehensive **review** on how iPSCs are being used in precision medicine:
+
+    Hamazaki T, El Rouby N, Fredette NC, Santostefano KE, Terada N. Concise Review: Induced Pluripotent Stem Cell Research in the Era of Precision Medicine. Stem Cells. 2017 Mar;35(3):545-550. doi: [10.1002/stem.2570](https://stemcellsjournals.onlinelibrary.wiley.com/doi/10.1002/stem.2570). Epub 2017 Feb 5. PMID: 28100040; PMCID: PMC5915333.
+
+### Week 3 - 10/21/2021
+
+Let's take a step back and dig deeper into what pluripotency and cell fate commitment are and put them in developmental context. This article uses single cell sequencing, a new and powerful method to follow cells over developmental progression. Also it is from JAX's own Dr. Paul Robson!
+
+**Article:** Guo G, Huss M, Tong GQ, Wang C, Li Sun L, Clarke ND, Robson P. Resolution of cell fate decisions revealed by single-cell gene expression analysis from zygote to blastocyst. Dev Cell. 2010 Apr 20;18(4):675-85. doi: [10.1016/j.devcel.2010.02.012](https://doi.org/10.1016/j.devcel.2010.02.012). PMID: 20412781.
+
+### Week 4 - 11/04/2021
+
+Cells are not human beings, so why do we say they make "decisions"? Can we use embryonic stem cells to dissect the cellular processes underlying differences in cell fates? What is the logic and how can we understand it better?
+
+**Article:** Lin YT, Hufton PG, Lee EJ, Potoyan DA (2018) A stochastic and dynamical view of pluripotency in mouse embryonic stem cells. PLoS Comput Biol 14(2): e1006000. <https://doi.org/10.1371/journal.pcbi.1006000>
+
+### Week 5 - 11/18/2021
+
+I heard machine learning is the new cool tool, can't we use that instead?
+
+**Article:** Stumpf PS, MacArthur BD. Machine Learning of Stem Cell Identities From Single-Cell Expression Data via Regulatory Network Archetypes. Front Genet. 2019 Jan 22;10:2. doi: [10.3389/fgene.2019.00002](https://doi.org/10.3389/fgene.2019.00002). PMID: 30723489; PMCID: PMC6349820.
+
+### Week 6 - 12/02/2021
+
+All this deep dive into pluripotency is nice but these are just cells in culture. Can we make more complex structures with them? Behold, here comes organoids!
+
+**Article:** Gabriel E, Albanna W, Pasquini G, Ramani A, Josipovic N, Mariappan A, Schinzel F, Karch CM, Bao G, Gottardo M, Suren AA, Hescheler J, Nagel-Wolfrum K, Persico V, Rizzoli SO, Altmüller J, Riparbelli MG, Callaini G, Goureau O, Papantonis A, Busskamp V, Schneider T, Gopalakrishnan J. Human brain organoids assemble functionally integrated bilateral optic vesicles. Cell Stem Cell. 2021 Aug 12:S1934-5909(21)00295-2. doi: [10.1016/j.stem.2021.07.010](https://doi.org/10.1016/j.stem.2021.07.010). Epub ahead of print. PMID: 34407456.
+
+### Week 7 - 12/23/2021
+
+All this research in cells from a single genetic background is nice and all but humans are not genetically identical. Why aren't we taking that into consideration?
+
+**Article:** Strober BJ, Elorbany R, Rhodes K, Krishnan N, Tayeb K, Battle A, Gilad Y. Dynamic genetic regulation of gene expression during cellular differentiation. Science. 2019 Jun 28;364(6447):1287-1290. doi: [10.1126/science.aaw0040](https://doi.org/10.1126/science.aaw0040). PMID: 31249060; PMCID: PMC6623972.
+
+### Week 8 - 01/06/2021
+
+Wow, genetic variation is powerful! Can't we use it as a tool to understand pluripotency better? Yeah, I know I chose a paper I am on as an author. We can talk about the process of how this project came to be and how the paper *evolved* into its final form.
+
+**Article:** Skelly DA, Czechanski A, Byers C, Aydin S, Spruce C, Olivier C, Choi K, Gatti DM, Raghupathy N, Keele GR, Stanton A, Vincent M, Dion S, Greenstein I, Pankratz M, Porter DK, Martin W, O'Connor C, Qin W, Harrill AH, Choi T, Churchill GA, Munger SC, Baker CL, Reinholdt LG. Mapping the Effects of Genetic Variation on Chromatin State and Gene Expression Reveals Loci That Control Ground State Pluripotency. Cell Stem Cell. 2020 Sep 3;27(3):459-469.e8. doi: [10.1016/j.stem.2020.07.005](https://doi.org/10.1016/j.stem.2020.07.005). Epub 2020 Aug 13. PMID: 32795400; PMCID: PMC7484384.
+
+**Accompanying comment:** D'Antonio M, D'Antonio-Chronowska A, Frazer KA. Revealing Instability: Genetic Variation Underlies Variability in mESC Pluripotency. Cell Stem Cell. 2020 Sep 3;27(3):347-349. doi: [10.1016/j.stem.2020.08.012](https://doi.org/10.1016/j.stem.2020.08.012). PMID: 32888420.
+
+### Week 9 - 01/20/2021
+
+Enough research! How do we utilize these resources to help humans? Can stem cell therapy cure all diseases and save humanity?
+
+**Article:** Sharma R, Khristov V, Rising A, Jha BS, Dejene R, Hotaling N, Li Y, Stoddard J, Stankewicz C, Wan Q, Zhang C, Campos MM, Miyagishima KJ, McGaughey D, Vilasmil R, Mattapallil M, Stanzel B, Qian H, Wong W, Chase L, Charles S, McGill T, Miller S, Maminishikis A, Amaral J, Bharti K, "Patient-specific clinical-grade iPS cell-derived retinal pigment epithelium patch rescues retinal degeneration in rodent and pig eyes." January 16, 2019 Science Translational Medicine. DOI: [10.1126/scitranslmed.aat5580](https://doi.org/10.1126/scitranslmed.aat5580)
+
+<https://www.nei.nih.gov/about/news-and-events/news/nih-launches-first-us-clinical-trial-patient-derived-stem-cell-therapy-replace-and-repair-dying>
+
+### Week 10 - 02/03/2021
+
+Oh! We are actually putting these into humans and trying to build brains with them! Okay, somebody should be thinking and talking about the ethics of all these!
+
+**Article:** Moradi, S., Mahdizadeh, H., Šarić, T. et al. Research and therapy with induced pluripotent stem cells (iPSCs): social, legal, and ethical considerations. Stem Cell Res Ther 10, 341 (2019). <https://doi.org/10.1186/s13287-019-1455-y>
+
+**Article:** Sawai T, Sakaguchi H, Thomas E, Takahashi J, Fujita M. The Ethics of Cerebral Organoid Research: Being Conscious of Consciousness. Stem Cell Reports. 2019 Sep 10;13(3):440-447. doi: [10.1016/j.stemcr.2019.08.003](https://doi.org/10.1016/j.stemcr.2019.08.003). PMID: 31509736; PMCID: PMC6739740.
+
+News feature: <https://www.nature.com/articles/d41586-020-02986-y>
