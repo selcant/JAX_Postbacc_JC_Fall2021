@@ -62,15 +62,31 @@ Let's look at an example in where iPSCs can be used to investigate human disease
 
 ### Week 3 - 10/21/2021
 
-Let's take a step back and dig deeper into what pluripotency and cell fate commitment are and put them in developmental context. This article uses single cell sequencing, a new and powerful method to follow cells over developmental progression. Also it is from JAX's own Dr. Paul Robson!
+Let's take a step back and dig deeper into what pluripotency and cell fate commitment are and put them in developmental context. This article uses single cell sequencing, a new and powerful method to follow cells over developmental progression.
 
-**Article:** Guo G, Huss M, Tong GQ, Wang C, Li Sun L, Clarke ND, Robson P. Resolution of cell fate decisions revealed by single-cell gene expression analysis from zygote to blastocyst. Dev Cell. 2010 Apr 20;18(4):675-85. doi: [10.1016/j.devcel.2010.02.012](https://doi.org/10.1016/j.devcel.2010.02.012). PMID: 20412781.
+**Article:** Mohammed H, Hernando-Herraez I, Savino A, Scialdone A, Macaulay I, Mulas C, Chandra T, Voet T, Dean W, Nichols J, Marioni JC, Reik W. Single-Cell Landscape of Transcriptional Heterogeneity and Cell Fate Decisions during Mouse Early Gastrulation. Cell Rep. 2017 Aug 1;20(5):1215-1228. doi: [10.1016/j.celrep.2017.07.009](https://www.cell.com/cell-reports/fulltext/S2211-1247(17)30961-0?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2211124717309610%3Fshowall%3Dtrue). PMID: 28768204; PMCID: PMC5554778.
+
+**Additional resources:**
+
+-   What is next generation sequencing? <https://www-jove-com.ezproxy.jax.org/science-education/12021/next-generation-sequencing>
+
+-   What is RNA sequencing? <https://www-jove-com.ezproxy.jax.org/science-education/12022/rna-seq>
+
+-   How do we go from bulk to single cell? This is a highly active field of research and new methods are still being developed. Check out the paper below for a nice overview of the current methods.
+
+    Svensson V, Vento-Tormo R, Teichmann SA. Exponential scaling of single-cell RNA-seq in the past decade. Nat Protoc. 2018 Apr;13(4):599-604. doi: [10.1038/nprot.2017.149](https://www.nature.com/articles/nprot.2017.149/). Epub 2018 Mar 1. PMID: 29494575.
 
 ### Week 4 - 11/04/2021
 
 Cells are not human beings, so why do we say they make "decisions"? Can we use embryonic stem cells to dissect the cellular processes underlying differences in cell fates? What is the logic and how can we understand it better?
 
-**Article:** Lin YT, Hufton PG, Lee EJ, Potoyan DA (2018) A stochastic and dynamical view of pluripotency in mouse embryonic stem cells. PLoS Comput Biol 14(2): e1006000. <https://doi.org/10.1371/journal.pcbi.1006000>
+**Article:** Yachie-Kinoshita A, Onishi K, Ostblom J, Langley MA, Posfai E, Rossant J, Zandstra PW. Modeling signaling-dependent pluripotency with Boolean logic to predict cell fate transitions. Mol Syst Biol. 2018 Jan 29;14(1):e7952. doi: [10.15252/msb.20177952](https://www.embopress.org/doi/full/10.15252/msb.20177952). PMID: 29378814; PMCID: PMC5787708.
+
+I really like Molecular Systems Biology as a journal because they always attach the peer reviews to the papers. Here is the link: <https://www.embopress.org/action/downloadSupplement?doi=10.15252/msb.20177952&file=msb177952.reviewer_comments.pdf>
+
+**Accompanying article:** This is a short article describing the methodology used in the main article. I know boolean networks and mathematical modeling of biological processes are all new concepts. Hopefully, this article will help explain some concepts and how they are put to use.
+
+Albert I, Thakar J, Li S, Zhang R, Albert R. Boolean network simulations for life scientists. Source Code Biol Med. 2008 Nov 14;3:16. doi: [10.1186/1751-0473-3-16](https://scfbm.biomedcentral.com/articles/10.1186/1751-0473-3-16). PMID: 19014577; PMCID: PMC2603008.
 
 ### Week 5 - 11/18/2021
 
@@ -78,19 +94,31 @@ I heard machine learning is the new cool tool, can't we use that instead?
 
 **Article:** Stumpf PS, MacArthur BD. Machine Learning of Stem Cell Identities From Single-Cell Expression Data via Regulatory Network Archetypes. Front Genet. 2019 Jan 22;10:2. doi: [10.3389/fgene.2019.00002](https://doi.org/10.3389/fgene.2019.00002). PMID: 30723489; PMCID: PMC6349820.
 
+**Accompanying review article:** Greener JG, Kandathil SM, Moffat L, Jones DT. A guide to machine learning for biologists. Nat Rev Mol Cell Biol. 2021 Sep 13. doi: [10.1038/s41580-021-00407-0](https://www.nature.com/articles/s41580-021-00407-0). Epub ahead of print. PMID: 34518686.
+
 ### Week 6 - 12/02/2021
-
-All this deep dive into pluripotency is nice but these are just cells in culture. Can we make more complex structures with them? Behold, here comes organoids!
-
-**Article:** Gabriel E, Albanna W, Pasquini G, Ramani A, Josipovic N, Mariappan A, Schinzel F, Karch CM, Bao G, Gottardo M, Suren AA, Hescheler J, Nagel-Wolfrum K, Persico V, Rizzoli SO, Altmüller J, Riparbelli MG, Callaini G, Goureau O, Papantonis A, Busskamp V, Schneider T, Gopalakrishnan J. Human brain organoids assemble functionally integrated bilateral optic vesicles. Cell Stem Cell. 2021 Aug 12:S1934-5909(21)00295-2. doi: [10.1016/j.stem.2021.07.010](https://doi.org/10.1016/j.stem.2021.07.010). Epub ahead of print. PMID: 34407456.
-
-### Week 7 - 12/23/2021
 
 All this research in cells from a single genetic background is nice and all but humans are not genetically identical. Why aren't we taking that into consideration?
 
 **Article:** Strober BJ, Elorbany R, Rhodes K, Krishnan N, Tayeb K, Battle A, Gilad Y. Dynamic genetic regulation of gene expression during cellular differentiation. Science. 2019 Jun 28;364(6447):1287-1290. doi: [10.1126/science.aaw0040](https://doi.org/10.1126/science.aaw0040). PMID: 31249060; PMCID: PMC6623972.
 
-### Week 8 - 01/06/2021
+**Accompanying review:** Gilad Y, Rifkin SA, Pritchard JK. Revealing the architecture of gene regulation: the promise of eQTL studies. Trends Genet. 2008 Aug;24(8):408-15. doi: [10.1016/j.tig.2008.06.001](https://doi.org/10.1016/j.tig.2008.06.001). Epub 2008 Jul 1. PMID: 18597885; PMCID: PMC2583071.
+
+**Questions for group 1**:
+
+1.  What is genetic mapping?
+
+2.  Why is genetic mapping in humans challenging?
+
+3.  Who are Yoruba people and why are they used in human genetic mapping studies?
+
+**Questions for group 2:**
+
+1.  What is an eQTL?
+2.  What makes an eQTL cis or trans?
+3.  What is a dynamic eQTL?
+
+### Week 7 - 12/30/2021 -- CANCELED. 
 
 Wow, genetic variation is powerful! Can't we use it as a tool to understand pluripotency better? Yeah, I know I chose a paper I am on as an author. We can talk about the process of how this project came to be and how the paper *evolved* into its final form.
 
@@ -98,15 +126,13 @@ Wow, genetic variation is powerful! Can't we use it as a tool to understand plur
 
 **Accompanying comment:** D'Antonio M, D'Antonio-Chronowska A, Frazer KA. Revealing Instability: Genetic Variation Underlies Variability in mESC Pluripotency. Cell Stem Cell. 2020 Sep 3;27(3):347-349. doi: [10.1016/j.stem.2020.08.012](https://doi.org/10.1016/j.stem.2020.08.012). PMID: 32888420.
 
-### Week 9 - 01/20/2021
+### Week 8 - 01/13/2021
 
-Enough research! How do we utilize these resources to help humans? Can stem cell therapy cure all diseases and save humanity?
+All this deep dive into pluripotency is nice but these are just cells in culture. Can we make more complex structures with them? Behold, here comes organoids!
 
-**Article:** Sharma R, Khristov V, Rising A, Jha BS, Dejene R, Hotaling N, Li Y, Stoddard J, Stankewicz C, Wan Q, Zhang C, Campos MM, Miyagishima KJ, McGaughey D, Vilasmil R, Mattapallil M, Stanzel B, Qian H, Wong W, Chase L, Charles S, McGill T, Miller S, Maminishikis A, Amaral J, Bharti K, "Patient-specific clinical-grade iPS cell-derived retinal pigment epithelium patch rescues retinal degeneration in rodent and pig eyes." January 16, 2019 Science Translational Medicine. DOI: [10.1126/scitranslmed.aat5580](https://doi.org/10.1126/scitranslmed.aat5580)
+**Article:** Gabriel E, Albanna W, Pasquini G, Ramani A, Josipovic N, Mariappan A, Schinzel F, Karch CM, Bao G, Gottardo M, Suren AA, Hescheler J, Nagel-Wolfrum K, Persico V, Rizzoli SO, Altmüller J, Riparbelli MG, Callaini G, Goureau O, Papantonis A, Busskamp V, Schneider T, Gopalakrishnan J. Human brain organoids assemble functionally integrated bilateral optic vesicles. Cell Stem Cell. 2021 Aug 12:S1934-5909(21)00295-2. doi: [10.1016/j.stem.2021.07.010](https://doi.org/10.1016/j.stem.2021.07.010). Epub ahead of print. PMID: 34407456.
 
-<https://www.nei.nih.gov/about/news-and-events/news/nih-launches-first-us-clinical-trial-patient-derived-stem-cell-therapy-replace-and-repair-dying>
-
-### Week 10 - 02/03/2021
+### Week 9 - 01/27/2021
 
 Oh! We are actually putting these into humans and trying to build brains with them! Okay, somebody should be thinking and talking about the ethics of all these!
 
