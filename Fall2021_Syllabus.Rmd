@@ -132,6 +132,12 @@ All this deep dive into pluripotency is nice but these are just cells in culture
 
 **Article:** Gabriel E, Albanna W, Pasquini G, Ramani A, Josipovic N, Mariappan A, Schinzel F, Karch CM, Bao G, Gottardo M, Suren AA, Hescheler J, Nagel-Wolfrum K, Persico V, Rizzoli SO, Altmüller J, Riparbelli MG, Callaini G, Goureau O, Papantonis A, Busskamp V, Schneider T, Gopalakrishnan J. Human brain organoids assemble functionally integrated bilateral optic vesicles. Cell Stem Cell. 2021 Aug 12:S1934-5909(21)00295-2. doi: [10.1016/j.stem.2021.07.010](https://doi.org/10.1016/j.stem.2021.07.010). Epub ahead of print. PMID: 34407456.
 
+**Accompanying preview:** Rao RC, Stern JH, Temple S. The eyeball's connected to the brain ball. Cell Stem Cell. 2021 Oct 7;28(10):1675-1677. doi: [10.1016/j.stem.2021.09.010](https://doi.org/10.1016/j.stem.2021.09.010). PMID: 34624225.
+
+**Accompanying review:** Kim J, Koo BK, Knoblich JA. Human organoids: model systems for human biology and medicine. Nat Rev Mol Cell Biol. 2020 Oct;21(10):571-584. doi: [10.1038/s41580-020-0259-3](https://doi.org/10.1038/s41580-020-0259-3). Epub 2020 Jul 7. PMID: 32636524; PMCID: PMC7339799.
+
+
+
 ### Week 9 - 01/27/2021
 
 Oh! We are actually putting these into humans and trying to build brains with them! Okay, somebody should be thinking and talking about the ethics of all these!
